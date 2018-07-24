@@ -1,12 +1,14 @@
 .flex-wrapper {
   display: flex;
-  height: 6rem;
   align-items: flex-end;
 }
 
 .logo {
   animation: logo-spin 1 2s linear forwards;
-  height: 3rem;
+}
+
+svg > g > path {
+  fill: green !important;
 }
 
 @keyframes logo-spin {
