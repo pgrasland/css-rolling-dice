@@ -1,0 +1,49 @@
+.flex-wrapper {
+  display: flex;
+  height: 6rem;
+  align-items: flex-end;
+}
+
+.logo {
+  animation: logo-spin 1 2s linear forwards;
+  height: 3rem;
+}
+
+@keyframes logo-spin {
+  0% {
+    transform: translate(0, -100%) rotate(0deg);
+  }
+  10% {
+    transform: translate(40%, 0) rotate(36deg);
+  }
+  20% {
+    transform: translate(80%, -40%) rotate(72deg);
+  }
+  30% {
+    transform: translate(120%, 0) rotate(108deg);
+  }
+  40% {
+    transform: translate(160%, -30%) rotate(144deg);
+  }
+  50% {
+    transform: translate(200%, 0) rotate(180deg);
+  }
+  60% {
+    transform: translate(240%, -20%) rotate(216deg);
+  }
+  70% {
+    transform: translate(280%, 0) rotate(252deg);
+  }
+  80% {
+    transform: translate(320%, -10%) rotate(288deg);
+  }
+  90% {
+    transform: translate(360%, 0) rotate(324deg);
+  }
+  95% {
+    transform: translate(380%, -5%) rotate(342deg);
+  }
+  100% {
+    transform: translate(400%, 0) rotate(360deg);
+  }
+}
